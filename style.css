@@ -1,0 +1,27 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+
+h3{
+    width: 40%;
+    height: 5%;
+    font-family: "Varela Round", sans-serif;
+    font-size: 25px !important;
+      }
+      
+.btn-success:hover{
+background-color: red;
+}
+
+canvas{
+    animation-name: skibidianimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes skibidianimation{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px violet;}
+}
